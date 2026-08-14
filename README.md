@@ -1,282 +1,167 @@
-# WEB_Practice
-AAZ SOLUTIONS (PTY) LTD - Company Website
-📌 Project Overview
-This is a complete, responsive 5-page company website for AAZ SOLUTIONS (PTY) LTD, a multi-service company based in Pietermaritzburg, South Africa. The website showcases the company's services, values, and contact information while providing a professional online presence.
-
-Tagline: Reliable Supply, Build, Clean & Secure — Delivered
-
-🎯 Project Goals
-Establish a professional digital brand presence for AAZ SOLUTIONS
-
-Showcase the company's four core service offerings
-
-Generate qualified leads through the enquiry form
-
-Provide comprehensive contact information with location maps
-
-Improve search engine visibility for local KZN services
-
-Create a mobile-responsive, user-friendly experience
-
-🗺️ Site Structure (Sitemap)
-text
-AAZ SOLUTIONS Website
-│
-├── Home (index.html)
-│   ├── Hero Section with CTA
-│   ├── USP Strip (4 services)
-│   ├── Why Choose Us
-│   └── Call to Action
-│
-├── About (about.html)
-│   ├── Company Story
-│   ├── Mission & Vision
-│   └── Core Values (6 values)
-│
-├── Services (services.html)
-│   ├── Supply & Delivery
-│   ├── Construction
-│   ├── Cleaning Services
-│   └── Security Services
-│
-├── Enquiry (enquiry.html)
-│   ├── Contact Form
-│   └── Client-side Validation
-│
-└── Contact (contact.html)
-    ├── Contact Cards (Phone, Email, Address)
-    ├── Main Office Map (Pietermaritzburg)
-    └── Satellite Office Map (Durban)
-🛠️ Technology Stack
-Frontend
-HTML5 - Semantic markup for structure
-
-CSS3 - Custom styling with CSS variables
-
-JavaScript (ES6+) - Interactive functionality
-
-Google Fonts - Playfair Display, Montserrat, Open Sans
-
-Tools & Services
-Version Control - Git & GitHub
-
-Maps Integration - Google Maps Embed API
-
-Font Stack - System fonts with Google Fonts fallback
-
-Responsive Design - Mobile-first with Flexbox & Grid
-
-📂 File Structure
-text
-aaz-solutions/
-│
-├── index.html          # Homepage
-├── about.html          # About Us page
-├── services.html       # Services page
-├── enquiry.html        # Enquiry form page
-├── contact.html        # Contact page
-│
-├── css/
-│   └── style.css       # Main stylesheet
-│
-├── js/
-│   └── script.js       # JavaScript functionality
-│
-├── images/             # Image assets (add your own)
-│   ├── hero-bg.jpg
-│   ├── team-photo.jpg
-│   ├── supply.jpg
-│   ├── construction.jpg
-│   ├── cleaning.jpg
-│   ├── security.jpg
-│   └── logo.png
-│
-└── README.md           # Project documentation
-🎨 Design System
-Colour Palette
-Colour Name	Hex Code	Usage
-Palm Gold	#B8860B	Primary accent, buttons, highlights
-Ivory White	#FFFDF5	Background colour
-Ocean Deep	#1A3A4A	Headings, navigation, footer
-Sand Beige	#D4B483	Supporting accent
-Dark	#1a1a1a	Body text
-Typography
-Element	Font	Size
-Headings	Playfair Display	32-56px
-Subheadings	Montserrat (SemiBold)	18-24px
-Body	Open Sans	16px
-Buttons	Montserrat (Bold)	14-16px
-Design Principles
-Modern Luxury - Clean, editorial layout
+# AAZ SOLUTIONS (PTY) LTD — Website Project
 
-African Coastal Influences - Warm tones, natural feel
+## Overview
 
-Responsive - Optimised for all devices
+This project contains the website developed for **AAZ SOLUTIONS (PTY) LTD**, a multi-service company offering:
 
-Accessible - WCAG 2.1 AA compliant considerations
+- Supply & Delivery
+- Construction
+- Cleaning Services
+- Security Services
 
-🚀 Features
-1. Responsive Navigation
-Fixed navigation bar that becomes solid on scroll
+The website is designed to provide AAZ SOLUTIONS with a professional online presence and make its services, company information, and enquiry/contact options easily accessible.
 
-Mobile hamburger menu toggle
+## Project Structure
 
-Active page highlighting
+The uploaded project contains the following files:
 
-2. Hero Section
-Full-width hero with overlay
+### HTML Pages
+- `AAZ Solutions/About.html`
+- `AAZ Solutions/Index.html`
+- `AAZ Solutions/contact.html`
+- `AAZ Solutions/enquiry.html`
+- `AAZ Solutions/services.html`
 
-Clear call-to-action buttons
+### CSS
+- No CSS files found in the uploaded project.
 
-Professional visual hierarchy
+### JavaScript
+- No JavaScript files found in the uploaded project.
 
-3. Service Showcase
-Four distinct service cards
+### Images and Other Assets
+- No image/asset files found in the uploaded project.
 
-Hover effects with elevation
+## Main Website Sections
 
-Clear service descriptions
+The proposal for this project defines five main pages:
 
-4. Enquiry Form
-Client-side validation
+1. **Home** — Introduces AAZ SOLUTIONS, highlights the four service areas, and provides calls to action.
+2. **About** — Presents the company background, mission, vision, leadership, and core values.
+3. **Services** — Describes Supply & Delivery, Construction, Cleaning, and Security Services.
+4. **Enquiry** — Provides a form for prospective clients to submit enquiries.
+5. **Contact** — Provides contact/location information and map integration.
 
-Required field checking
+## Design
 
-Email format validation
+The proposed design direction is:
 
-Success message display
+- Modern and professional
+- Clean editorial layout
+- Responsive/mobile-first
+- Strong focus on reliability and professionalism
+- Warm, African coastal-inspired visual influences
 
-Error state styling
+The proposal specifies the following colour palette:
 
-5. Contact Information
-3 contact cards (Phone, Email, Address)
+| Colour | Hex |
+|---|---|
+| Palm Gold | `#B8860B` |
+| Ivory White | `#FFFDF5` |
+| Ocean Deep | `#1A3A4A` |
+| Sand Beige | `#D4B483` |
+| Dark | `#1a1a1a` |
 
-2 Google Maps locations
+The proposed typography uses **Playfair Display**, **Montserrat**, and **Open Sans**.
 
-Clickable phone and email links
+## Technologies
 
-6. SEO Optimisation
-Unique meta descriptions per page
+The project proposal specifies:
 
-Semantic HTML structure
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- CSS Flexbox/Grid
+- Custom CSS
+- Google Fonts
+- Google Maps Embed API
+- Git/GitHub
+- Visual Studio Code
+- Google Analytics 4 (recommended)
 
-Proper heading hierarchy (H1-H3)
+## Key Features
 
-Image alt text support
+The website is planned to support:
 
-📱 Responsive Breakpoints
-Device	Screen Width	Layout Changes
-Desktop	> 992px	Full grid layout
-Tablet	768px - 992px	2-column grids
-Mobile	< 768px	Single column, hamburger menu
-Small Mobile	< 480px	Compact layout
-🔧 Installation & Setup
-Option 1: Direct Download
-Download all files to your local machine
+- Responsive design across screen sizes
+- Simple navigation
+- Service cards
+- Client enquiry form
+- Client-side form validation
+- Google Maps integration
+- WhatsApp integration
+- Social media links
+- SEO-friendly HTML structure
+- Mobile hamburger navigation
+- Scroll and hover effects
+- Accessibility considerations such as colour contrast, image alt text, and keyboard navigation
 
-Maintain the folder structure as shown above
+## How to Run the Website
 
-Open index.html in your web browser
+Because this is a front-end website project, it can be opened locally without a backend server if the project files use relative paths.
 
-Option 2: Git Clone
-bash
-git clone https://github.com/yourusername/aaz-solutions.git
-cd aaz-solutions
-Option 3: Live Server (VS Code Recommended)
-Install VS Code
+### Option 1 — Open Directly
 
-Install the "Live Server" extension
+Open the main HTML file in a web browser.
 
-Right-click index.html → "Open with Live Server"
+### Option 2 — Visual Studio Code
 
-📝 Content Sources
-Organisation Details
-All company information was provided in the project brief:
+1. Open the project folder in **Visual Studio Code**.
+2. Open the main HTML page.
+3. Run the website using a local development extension such as Live Server, if available.
+4. Open the local address provided by the development server.
 
-Company name, tagline, and description
+## Development Notes
 
-Service offerings and descriptions
+The website should remain responsive and should be tested on:
 
-Values and mission
+- Desktop screens
+- Tablets
+- Mobile phones
+- Different modern web browsers
 
-Contact details
+Before deployment, check all navigation links, enquiry form validation, images, map embeds, responsive layouts, and external integrations.
 
-Director information
+## Deployment
 
-Images
-Placeholder image containers are in place
+The project proposal recommends a South African hosting provider such as **Afrihost** or **Hetzner South Africa** and a domain such as:
 
-Recommended to add actual images before deployment
+`www.aazsolutions.co.za`
 
-Image sources should be credited if not original
+An SSL certificate should be enabled for secure HTTPS access.
 
-Maps
-Google Maps embeds for:
+## Project Timeline
 
-Main Office: 164 Langalibalele Street, Pietermaritzburg
+The proposal outlines a six-week development process:
 
-Satellite Office: Durban City Centre
+| Phase | Main Activities |
+|---|---|
+| Week 1 | Project kick-off, brief finalisation, discovery and research |
+| Week 2 | Information architecture and wireframes |
+| Week 3 | Brand/style guide and high-fidelity mockups |
+| Week 4 | Client approval and frontend development |
+| Week 5 | Integrations and quality assurance |
+| Week 6 | User acceptance testing and launch preparation |
+| Week 6+ | Post-launch support |
 
-🔍 SEO Implementation
-Page	Target Keywords	Meta Description
-Home	AAZ Solutions, Pietermaritzburg, multi-service	Full company description
-About	Company history, values, mission	About the company story
-Services	Supply, construction, cleaning, security	Service offerings
-Enquiry	Get a quote, contact us	Enquiry form page
-Contact	Contact information, location	Contact details and maps
-📊 Performance Optimisation
-✅ CSS variables for consistent theming
+## Project Budget
 
-✅ Efficient CSS with flexbox and grid
+The proposal estimates the total project budget at:
 
-✅ Lazy loading for iframes
+**R42,000.00**
 
-✅ Minified CSS and JS ready for production
+This includes discovery, design, development, content, integrations, SEO setup, testing, hosting, training, and initial maintenance.
 
-✅ Font loading optimisation
+## Company Information
 
-✅ Reduced DOM reflows
+**AAZ SOLUTIONS (PTY) LTD**
 
-🐛 Known Issues
-None at this stage. All pages are fully functional.
+**Address:** 164 Langalibalele Street, Thanet House, Pietermaritzburg, 3201
 
-🔮 Future Enhancements
-□ Add actual photography (hero, team, services)
-□ Implement a backend for form submissions
-□ Add a live chat widget
-□ Integrate with a booking/quote system
-□ Add a blog section for company news
-□ Implement Google Analytics tracking
-□ Add social media feed integration
-□ Multi-language support (Zulu/English)
-□ Testimonial carousel with actual client reviews
-📄 License
-© 2026 AAZ SOLUTIONS (PTY) LTD. All rights reserved.
+**Director:** Ayabonga Aphile Zikalala
 
-📞 Contact
-Role	Name	Contact
-Director	Ayabonga Aphile Zikalala	069 108 9446
-General Enquiries	AAZ Solutions	081 799 7667
-Email	-	aphilezikalala7@gmail.com
-Address	Main Office	164 Langalibalele Street, Thanet House, Pietermaritzburg 3201
-📚 References
-Web Development Resources
-Google Fonts. (2026). Playfair Display, Montserrat, Open Sans. Retrieved from https://fonts.google.com
+**Tagline:**  
+> Reliable Supply, Build, Clean & Secure — Delivered
 
-Mozilla Developer Network. (2026). HTML, CSS, and JavaScript Documentation. Retrieved from https://developer.mozilla.org
+## Notes
 
-W3C. (2023). Web Content Accessibility Guidelines (WCAG) 2.1. Retrieved from https://www.w3.org/TR/WCAG21/
-
-Tools & Services
-Google Maps. (2026). Embedded Maps API. Retrieved from https://developers.google.com/maps
-
-Git. (2026). Version Control System. Retrieved from https://git-scm.com
-
-GitHub. (2026). Code Hosting Platform. Retrieved from https://github.com
-
-🙏 Acknowledgements
-The Independent Institute of Education - Project brief and requirements
-
-AAZ Solutions (PTY) Ltd - Company content and direction
-
-Open-source community - Free resources and inspiration
+This README is based on the contents of the uploaded AAZ SOLUTIONS project and its associated website proposal. It describes the intended website structure and requirements without adding unsupported project features.
